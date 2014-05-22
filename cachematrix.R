@@ -3,6 +3,7 @@
 ## details are described within.
 ##
 ## Output variables:
+##
 ##    "x" will contain the matrix
 ##    "m" will contain the matrix's inverse
 
@@ -37,7 +38,8 @@ makeCacheMatrix <- function(x = matrix()) {
 ## If the matrix has not changed and the inverse has already been calculated
 ## then the previously cached result with be returned rather than recalculated.
 ##
-## Output variables:
+## Output variable:
+##
 ##    "m" will contain the matrix's inverse
 
 cacheSolve <- function(x, ...) {
